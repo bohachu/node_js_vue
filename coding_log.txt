@@ -1,0 +1,8 @@
+== 20200229 22:43 Bowen ==
+http://localhost:63343/node_js_vue/pages/hello.html?_ijt=60imougutsihusvbh0hrgq2ko6&str_name=%E6%88%91%E6%98%AF%E4%B8%80%E9%9A%BB%E9%B3%A5
+22:52
++ vue component 已經整合進去，雖然尚未有最好的分割位置，但已經可以運用
++ hello.html 並沒有太複雜
++ hello.js 已經可以 command line 測試，同時可以瀏覽器測試，但現在懷疑 command line 測試經常使用的可能，或許只有資料處理才會比較容易用到
++ 資料處理運用 command line 已經可以使用
+
