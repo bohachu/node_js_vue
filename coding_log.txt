@@ -1,3 +1,6 @@
+== 20200301 20:51 Bowen ==
+已經可以順暢的進行
+
 == 20200229 22:43 Bowen ==
 http://localhost:63343/node_js_vue/pages/hello.html?_ijt=60imougutsihusvbh0hrgq2ko6&str_name=%E6%88%91%E6%98%AF%E4%B8%80%E9%9A%BB%E9%B3%A5
 22:52
@@ -5,4 +8,8 @@ http://localhost:63343/node_js_vue/pages/hello.html?_ijt=60imougutsihusvbh0hrgq2
 + hello.html 並沒有太複雜
 + hello.js 已經可以 command line 測試，同時可以瀏覽器測試，但現在懷疑 command line 測試經常使用的可能，或許只有資料處理才會比較容易用到
 + 資料處理運用 command line 已經可以使用
++ gui 處理已經可以運用 vue component 元件化
++ url parameters 已經可以解析也可以使用了
++ vue 呼叫順序已經妥當
+22:58 todo 下一個任務有可能是要進行 leaflet 地圖放在畫面上的任務了
 

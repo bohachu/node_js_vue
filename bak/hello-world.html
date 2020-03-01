@@ -1,0 +1,20 @@
+<!-- 1. Define the template -->
+<template>
+    Hello, World!
+</template>
+
+<script>
+    var template = document.currentScript.ownerDocument.querySelector( 'template' )
+
+    //2. Define the custom element
+
+    customElements.define( 'hello-world', class extends HTMLElement
+    {
+        constructor()
+        {
+            //3. Create a Shadow DOM
+            var sh = this.attachShadow( { mode: 'open' } )
+            sh.appendChild( document.importNode( template.content, true ) )
+        }
+    } )
+</script>
